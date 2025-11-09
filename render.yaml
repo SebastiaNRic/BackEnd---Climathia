@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: backend-climathia
+    env: docker
+    plan: free
+    region: oregon
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PORT
+        value: 8000
