@@ -1,0 +1,36 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+.hypothesis
+
+.DS_Store
+.vscode
+.idea
+
+# Archivos locales
+.env
+*.local
+
+# Node modules si los hay
+node_modules
+npm-debug.log*
+
+# Archivos de desarrollo
+*.md
+!README.md
